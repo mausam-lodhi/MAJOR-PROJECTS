@@ -1,0 +1,28 @@
+/* filepath: /c:/Users/mausam/Downloads/portreto - Copy/client/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import "tailwindcss"; */
+
+.filter {
+	display: none;
+}
+
+.filter.visible {
+	display: block;
+}
+
+.filter a.active {
+	font-weight: bold;
+}
+
+.gallery-section {
+	position: relative;
+}
+
+.filter-toggle {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 100;
+}

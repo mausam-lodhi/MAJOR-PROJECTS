@@ -1,0 +1,15 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.diary-entry {
+  transition: transform 0.2s;
+}
+
+.diary-entry:hover {
+  transform: translateY(-3px);
+}
+
+.auth-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

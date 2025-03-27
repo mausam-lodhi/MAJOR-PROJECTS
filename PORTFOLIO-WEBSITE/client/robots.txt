@@ -1,0 +1,19 @@
+# Allow all search engines to crawl the website
+User-agent: *
+Disallow:
+
+# Block specific sensitive or non-essential directories
+Disallow: /admin/
+Disallow: /login/
+Disallow: /config/
+Disallow: /scripts/
+
+# Allow crawling of CSS, JavaScript, and images
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.gif
+
+# Sitemap location
+Sitemap: https://mausam-portfolio.onrender.com/sitemap.xml

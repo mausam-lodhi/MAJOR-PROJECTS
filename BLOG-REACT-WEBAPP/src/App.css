@@ -1,0 +1,41 @@
+/* General Styles */
+.app-container {
+	display: flex;
+	flex-direction: column;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+/* Header Section */
+
+/* Filters Section */
+.filters-section {
+	display: flex;
+	flex-direction: column;
+	margin-top: 13vh;
+}
+
+/* Main Content Section */
+.main-content {
+	display: flex;
+	margin-top: 7vh;
+	justify-content: space-between;
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
+
+.authors-filter {
+	flex: 2.5;
+}
+
+.blog-posts {
+	flex: 7.5;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.no-posts {
+	align-content: center;
+	margin-left: 10vw;
+}

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+	/* Adjustments for smaller screens */
+	/* Example: Adjust font sizes, padding, margins, etc. */
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
