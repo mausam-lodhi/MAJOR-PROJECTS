@@ -1,0 +1,1 @@
+THE LIVE URL OF THE PROJECT IS https://gallery-ioet.onrender.com
