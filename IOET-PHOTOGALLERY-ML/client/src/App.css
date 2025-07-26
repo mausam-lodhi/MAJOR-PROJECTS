@@ -1,0 +1,52 @@
+.filter {
+	display: none; /* Hide filter by default */
+}
+
+.filter.visible {
+	display: block; /* Show filter when visible class is added */
+}
+
+@media (min-width: 768px) {
+	.filter {
+		display: block; /* Always show filter on larger screens */
+	}
+}
+
+.gallery-post {
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-post:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-post-inner {
+	position: relative;
+}
+
+.gallery-image {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 10px;
+}
+
+.zoom {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 24px;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.gallery-post:hover .zoom {
+	opacity: 1;
+}
