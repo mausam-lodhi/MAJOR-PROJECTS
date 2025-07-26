@@ -2,8 +2,8 @@
 import { MongoClient } from "mongodb";
 
 // ✅ Replace with your own MongoDB connection strings
-const sourceUri = "mongodb+srv://harprasadlodhi1984:SGWXgJrUKGoVM6rG@ioet.0jdmv.mongodb.net/?retryWrites=true&w=majority&appName=IoET";
-const targetUri = "mongodb+srv://harprasadlodhi1984:cNrhshd1PXMuz6H6@ioet.bjvcbld.mongodb.net/";
+const sourceUri = "";
+const targetUri = "";
 
 // ✅ Replace with your database names
 const sourceDbName = "test";
