@@ -4,7 +4,7 @@ import fs from "fs";
 
 // Replace with your actual MongoDB connection URI
 const MONGO_URI =
-	"mongodb://harprasadlodhi1984:cNrhshd1PXMuz6H6@ac-zsddjrh-shard-00-00.bjvcbld.mongodb.net:27017,ac-zsddjrh-shard-00-01.bjvcbld.mongodb.net:27017,ac-zsddjrh-shard-00-02.bjvcbld.mongodb.net:27017/?ssl=true&replicaSet=atlas-npxikn-shard-0&authSource=admin&retryWrites=true&w=majority&appName=IoET";
+	"url";
 
 // Replace with your actual schema
 const imageSchema = new mongoose.Schema({}, { strict: false }); // Allow all fields
